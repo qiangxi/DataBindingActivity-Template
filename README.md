@@ -12,9 +12,9 @@ New -> Activity -> DataBinding Activity,具体见下图：
 ![图1](https://github.com/qiangxi/ImageLib/blob/master/Image/DataBindingTemp03.png?raw=true)
 
 ##### 模板样式：
-- 创建面板
-![图2](https://github.com/qiangxi/ImageLib/blob/master/Image/DataBindingTemp01.png?raw=true)  
-- 创建后的activity代码
-![图3](https://github.com/qiangxi/ImageLib/blob/master/Image/DataBindingTemp04.png?raw=true)  
-- 创建后的layout代码
-![图4](https://github.com/qiangxi/ImageLib/blob/master/Image/DataBindingTemp02.png?raw=true)  
+- 创建面板  
+![图2](https://github.com/qiangxi/ImageLib/blob/master/Image/DataBindingTemp01.png?raw=true)
+- 创建后的activity代码  
+![图3](https://github.com/qiangxi/ImageLib/blob/master/Image/DataBindingTemp04.png?raw=true)
+- 创建后的layout代码  
+![图4](https://github.com/qiangxi/ImageLib/blob/master/Image/DataBindingTemp02.png?raw=true)

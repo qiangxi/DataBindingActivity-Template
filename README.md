@@ -14,10 +14,12 @@ New -> Activity -> DataBinding Activity,具体见下图：
 
 ##### 模板样式：
 - 创建面板  
+
 ![图2](https://github.com/qiangxi/ImageLib/blob/master/Image/DataBindingTemp01.png?raw=true)
+
 - 创建后的activity代码示例  
 
-```
+```java
 import android.databinding.DataBindingUtil;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -36,7 +38,7 @@ public class DataBindingActivity extends AppCompatActivity {
 ```
 - 创建后的layout代码示例  
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto">

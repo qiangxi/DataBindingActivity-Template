@@ -24,8 +24,6 @@ import android.databinding.DataBindingUtil;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.qiangxi.annotationsample.R;
-
 public class DataBindingActivity extends AppCompatActivity {
 
     @Override

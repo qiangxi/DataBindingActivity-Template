@@ -9,12 +9,47 @@ Android Studio DataBinding 模板
 
 ##### 使用方式：
 New -> Activity -> DataBinding Activity,具体见下图：
+
 ![图1](https://github.com/qiangxi/ImageLib/blob/master/Image/DataBindingTemp03.png?raw=true)
 
 ##### 模板样式：
 - 创建面板  
 ![图2](https://github.com/qiangxi/ImageLib/blob/master/Image/DataBindingTemp01.png?raw=true)
-- 创建后的activity代码  
-![图3](https://github.com/qiangxi/ImageLib/blob/master/Image/DataBindingTemp04.png?raw=true)
-- 创建后的layout代码  
-![图4](https://github.com/qiangxi/ImageLib/blob/master/Image/DataBindingTemp02.png?raw=true)
+- 创建后的activity代码示例  
+
+```
+import android.databinding.DataBindingUtil;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+import com.qiangxi.annotationsample.R;
+
+public class DataBindingActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        DataBindingUtil.setContentView(this, R.layout.activity_data_binding);
+    }
+}
+
+```
+- 创建后的layout代码示例  
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+</layout>
+```
